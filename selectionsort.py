@@ -1,9 +1,11 @@
 arr=list(map(int,input().split()))
 total=len(arr)
 for i in range(total):
-	mintemp=min(arr[i:])
-	minindex=arr.index(mintemp)
+	minindex=arr.index(min(arr[i:]))
 	temp=arr[i]
 	arr[i]=arr[minindex]
 	arr[minindex]=temp
 print(arr)
+
+# stable sort algo, inplace sorting algo
+# inplace is how much extra space is being taken
