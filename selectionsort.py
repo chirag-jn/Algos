@@ -8,4 +8,4 @@ for i in range(total):
 print(arr)
 
 # stable sort algo, inplace sorting algo
-# inplace is how much extra space is being taken
+# inplace is based on how much extra space is being taken
