@@ -1,6 +1,5 @@
 arr=list(map(int,input().split()))
-total=len(arr)
-for i in range(1,total):
+for i in range(1,len(arr)):
 	j=i-1
 	temp=arr[i]
 	while j>=0 and temp<arr[j]:
