@@ -1,3 +1,7 @@
+# in selection sort, loop starts from 0
+# we find the min element in rest of list including the current element
+# and then swap the current element with the min element
+
 arr=list(map(int,input().split()))
 total=len(arr)
 for i in range(total):
